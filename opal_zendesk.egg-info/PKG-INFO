@@ -1,0 +1,21 @@
+Metadata-Version: 1.0
+Name: opal-zendesk
+Version: 0.1
+Summary: The zendesk OPAL Plugin
+Home-page: http://opal.openhealthcare.org.uk/
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: LICENSE
+Description: This is zendesk - an [OPAL](https://github.com/openhealthcare/opal) plugin.
+        
+        ## Installation
+        
+        1. Add to your application's INSTALLED_APPLICATIONS.
+        
+        2. Add the ZENDESK_HOST setting. 
+        
+        This setting should be without the scheme (http://) or any trailing slash so for example: 
+        
+            ZENDESK_HOST = 'yourinstitution.zendesk.com'
+        
+Platform: UNKNOWN
