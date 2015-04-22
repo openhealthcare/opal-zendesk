@@ -1,7 +1,7 @@
 """
 Plugin definition for the zendesk OPAL plugin
 """
-from opal.utils import OpalPlugin
+from opal.core.plugins import OpalPlugin
 
 from zendesk.urls import urlpatterns
 
