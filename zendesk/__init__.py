@@ -1,11 +1,11 @@
 """
 Plugin definition for the zendesk OPAL plugin
 """
-from opal.core.plugins import OpalPlugin
+from opal.core import plugins
 
 from zendesk.urls import urlpatterns
 
-class ZendeskPlugin(OpalPlugin):
+class ZendeskPlugin(plugins.OpalPlugin):
     """
     Main entrypoint to expose this plugin to our OPAL application.
     """
@@ -45,3 +45,6 @@ class ZendeskPlugin(OpalPlugin):
         by our plugin.
         """
         return {}
+
+
+plugins.register(ZendeskPlugin)
